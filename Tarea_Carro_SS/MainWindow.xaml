@@ -1,0 +1,22 @@
+﻿<Window x:Class="Tarea_Carro_SS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea_Carro_SS"
+        mc:Ignorable="d"
+        Title="Carrito" Height="600" Width="900">
+    <Grid Background="#FF00C8FF">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Stretch" 
+                   FontSize="72" FontFamily="Cooper Black">Bienvenido a tu carrito</TextBlock>
+        <Button x:Name="Encender" Content="Encender " HorizontalAlignment="Left" Margin="10,387,0,0" VerticalAlignment="Top" Height="63" Width="174" FontFamily="Arial Black" FontSize="20" FontWeight="Bold" Click="Button_Click" Background="#FF1FFF00"/>
+        <Button x:Name="Aceleron" Content="Acelera " HorizontalAlignment="Left" Margin="10,488,0,0" VerticalAlignment="Top" Height="63" Width="174" FontFamily="Arial Black" FontSize="20" FontWeight="Bold" Click="Acelerar_Click" Background="#FF4DFF00"/>
+        <Button x:Name="Frenon" Content="Freno" HorizontalAlignment="Left" Margin="241,481,0,0" VerticalAlignment="Top" Height="63" Width="174" FontFamily="Arial Black" FontSize="20" FontWeight="Bold" Click="Frenon_Click" Background="#FF4DFF00"/>
+        <Button x:Name="Bocina" Content="Bocina" HorizontalAlignment="Left" Margin="466,481,0,0" VerticalAlignment="Top" Height="63" Width="174" FontFamily="Arial Black" FontSize="20" FontWeight="Bold" Click="Bocina_Click" Background="#FF44FF00"/>
+        <Button x:Name="Apagar" Content="Apagar " HorizontalAlignment="Left" Margin="466,387,0,0" VerticalAlignment="Top" Height="63" Width="174" FontFamily="Arial Black" FontSize="20" FontWeight="Bold" Click="Apagar_Click" Background="#FF28FF00"/>
+        <TextBlock x:Name="txbAcelerar" HorizontalAlignment="Left" Margin="16,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="44" Width="304" FontFamily="Arial Black" FontWeight="Bold" FontSize="16"/>
+        <TextBlock x:Name="txbEncedido" HorizontalAlignment="Left" Margin="16,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="445" FontFamily="Arial Black" FontSize="22"/>
+        <Button x:Name="Desacelererar" Content="Desacelerar" HorizontalAlignment="Left" Margin="241,386,0,0" VerticalAlignment="Top" Height="64" Width="174" FontFamily="Arial Black" FontSize="20" FontWeight="Bold" Click="Desacelererar_Click" Background="#FF7BFF00"/>
+        <TextBlock x:Name="txbbocina" HorizontalAlignment="Left" Margin="16,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="272" FontFamily="Arial Black" FontSize="16"/>
+    </Grid>
+</Window>
